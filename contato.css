@@ -1,0 +1,62 @@
+main {
+    display: flex;
+    margin-left: 20vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+input {
+    display: block;
+}
+
+label {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.radio {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+}
+
+.Informacoes {
+    width: 40vw;
+    height: 5vh;
+    padding-left: 20px;
+}
+
+textarea {
+    border: 2px solid gray;
+    width: 40vw;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+select {
+    margin-bottom: 15px;
+}
+
+#checkbox {
+    margin-bottom: 15px;
+}
+
+#submit {
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    height: 10vh;
+    width: 30vw;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgba(255, 208, 0, 0.884);
+}

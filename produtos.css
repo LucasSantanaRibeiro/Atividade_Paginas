@@ -1,79 +1,38 @@
-header {
-    background-color: lightgray;
-    display: flex;
-    flex-direction: row;
-    height: 20vh;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.logo {
-    height: 15vh;
-}
-
-li {
-    display: inline-block;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    margin: 5px;
-}
-
-/* li:hover {
-    font-size: 60px;
-} */
-
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
-    position: relative;
-
-}
-
 main {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-
-    height: 100vh;
-}
-
-.mainImg {
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
-    column-gap: 60px;
-    row-gap: 50px;
-
-    width: 68vw;
-
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 40px;
+    margin: 15vh;
 }
 
-.ImgMenu {
+.Img {
+    height: 35vh;
+    width: 18vw;
+}
+
+strong {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bordaImagens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    row-gap: 20px;
     border: 2px solid black;
-    border-radius: 10%;
-
-    padding-top: 45px;
-    padding-bottom: 20px;
-    padding-right: 20px;
+    border-radius: 5%;
+    padding-top: 25px;
     padding-left: 20px;
-    height: 30vh;
-    width: 11vw;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
-
-.logobranco {
-    position: absolute;
-    height: 25vh;
-}
-
-.bg {
-    width: 100vw;
-    height: 30vh;
+.bordaImagens:hover {
+    transform: scale(1.1);
+    transition: 1s;
 }

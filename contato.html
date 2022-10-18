@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" href="padrao.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="contato.css">
+</head>
+
+<style>
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+</style>
+
+<body>
+
+    <header>
+        <a href="https://basesocial.org" target="_blank"><img class="logo" src="imagens/logo.png" alt=""></a>
+
+        <ul>
+            <li><strong>HOME</strong></li>
+
+            <li><strong><a href="produtos.html">PRODUTOS</a></strong></li>
+
+            <li><strong><a href="contato.html">CONTATO</a></strong></li>
+
+        </ul>
+    </header>
+    <main>
+        <form id="">
+            <label for="nome">Nome e Sobrenome</label>
+            <input class="Informacoes" id="nome" type="text">
+
+            <label for="email">Email</label>
+            <input class="Informacoes" id="email" type="email" placeholder="exemplo@exemplo.com">
+
+            <label for="telefone">Telefone</label>
+            <input class="Informacoes" type="tel" name="" id="telefone" placeholder="(XX) XXXXX-XXXX ">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            <p>Como prefere o nosso contato?</p>
+            <div class="radio"><input type="radio" name="contato" id="">Email</div>
+            <div class="radio"><input type="radio" name="contato" id="">Telefone</div>
+            <div class="radio"><input type="radio" name="contato" id="">Whatsapp</div>
+
+            <p>Qual horário prefere ser atendido?</p>
+            <select name="HorarioAtendimento" id="">
+                <option value="Manhã">Manhã</option>
+                <option value="Tarde">Tarde</option>
+                <option value="Noite">Noite</option>
+            </select>
+
+            <div class="radio"><input type="checkbox" name="" id="checkbox">Gostaria de receber nossas novidades por
+                email?
+            </div>
+
+            <input type="submit" id="submit" value="Enviar formulário">
+        </form>
+    </main>
+
+    <footer>
+        <img class="bg" src="footer/background.jpg" alt="">
+        <img class="logobranco" src="footer/logo-branco.png" alt="">
+    </footer>
+
+</body>
+
+</html>

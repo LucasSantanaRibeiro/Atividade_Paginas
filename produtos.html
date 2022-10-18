@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="reset.css">
 
+    <link rel="stylesheet" href="padrao.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -17,33 +19,44 @@
 
 </head>
 
+<style>
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+</style>
+
 <body>
     <header>
-        <img class="logo" src="logo.png" alt="">
+        <a href="https://basesocial.org" target="_blank"><img class="logo" src="imagens/logo.png" alt=""></a>
 
         <ul>
             <li><strong>HOME</strong></li>
-            <li><strong>PRODUTOS</strong></li>
-            <li><strong>CONTATO</strong></li>
+
+            <li><strong><a href="produtos.html">PRODUTOS</a></strong></li>
+
+            <li><strong><a href="contato.html">CONTATO</a></strong></li>
 
         </ul>
     </header>
-
     <main>
-        <div class="mainImg">
-            <img class="ImgMenu" src="imagens/cozinha.jpeg" alt="">
-            <img class="ImgMenu" src="imagens/quarto.jpeg" alt="">
-            <img class="ImgMenu" src="imagens/sala.jpg" alt="">
-            <img class="ImgMenu" src="imagens/banheiro.jpg" alt="">
-            <img class="ImgMenu" src="imagens/escritorio.jpeg" alt="">
-            <img class="ImgMenu" src="imagens/lavanderia.jpg" alt="">
+        <div class="bordaImagens"><strong>Cozinha</strong><img class="Img" src="imagens/cozinha.jpeg" alt=""></div>
+
+        <div class="bordaImagens"><strong>Quarto</strong><img class="Img" src="imagens/quarto.jpeg" alt=""></div>
+
+        <div class="bordaImagens"><strong>Sala</strong><img class="Img" src="imagens/sala.jpg" alt=""></div>
+
+        <div class="bordaImagens"><strong>Banheiro</strong><img class="Img" src="imagens/banheiro.jpg" alt=""></div>
+
+        <div class="bordaImagens"><strong>Escritorio</strong><img class="Img" src="imagens/escritorio.jpeg" alt="">
         </div>
+
+        <div class="bordaImagens"><strong>Lavanderia</strong><img class="Img" src="imagens/lavanderia.jpg" alt=""></div>
     </main>
 
     <footer>
-        <img class="bg" src="bg.jpg" alt="">
-        <img class="logobranco" src="logo-branco.png" alt="">
-    </footer>
+        <img class="bg" src="footer/background.jpg" alt="">
+        <img class="logobranco" src="footer/logo-branco.png" alt="">
 </body>
 
 </html>
